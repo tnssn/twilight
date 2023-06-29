@@ -3,14 +3,31 @@ background-color: #fcfcfc;
 color: #333333;
 }
 body {
+    -webkit-text-size-adjust: 100%;
     margin: 0;
     box-sizing: border-box;
     border: 15px solid #96a4c8;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    line-height: 1.75rem;
 }
 main {
+    position: relative;
     display: block;
-    max-width: 1024px;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+.box {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #d899c0;
 }
